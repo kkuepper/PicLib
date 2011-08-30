@@ -1,0 +1,7 @@
+{
+  "view" : "recent-albums",
+  "limit" : 50,
+  "descending" : "true",
+  "type" : "newRows",
+  "group_level" : 1
+}

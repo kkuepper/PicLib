@@ -1,0 +1,211 @@
+/* add styles here */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+	margin: 0 0 48px;
+	padding: 0;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  font-weight: normal;
+}
+h2, h3 {
+  padding: 0 0 9px;
+}
+
+p {
+  font-size: 14px;
+}
+
+.clear {
+  clear: both;
+}
+
+#profile {
+  border:4px solid #edd;
+  background:#fee;
+  padding:8px;
+  margin-bottom:8px;
+}
+
+#items {
+  border:4px solid #dde;
+  background:#eef;
+  padding:8px;
+  width:60%;
+  float:left;
+}
+
+#sidebar {
+  border:4px solid #dfd;
+  padding:8px;
+  float:right;
+  width:30%;
+}
+
+#items li {
+  border:4px solid #f5f5ff;
+  background:#fff;
+  padding:8px;
+  margin:4px 0;
+}
+
+form {
+  padding:4px;
+  margin:6px;
+}
+
+div.avatar {
+  padding:2px;
+  padding-bottom:0;
+  margin-right:4px;
+  float:left;
+  font-size:0.78em;
+  width : 60px;
+  height : 60px;
+  text-align: center;
+}
+
+div.avatar .name {
+  padding-top:2px;
+}
+
+div.avatar img {
+  margin:0 auto;
+  padding:0;
+  width : 40px;
+  height : 40px;
+}
+
+#items ul {
+  list-style: none;
+}
+
+
+/* *** Styles for jQuery UI */
+.ui-button-text {
+  padding-top: 0.2em !important;
+  padding-bottom: 0.2em !important;
+}
+/*
+#dialog_link {padding: .4em 1em .4em 20px;text-decoration: none;position: relative;}
+#dialog_link span.ui-icon {margin: 0 5px 0 0;position: absolute;left: .2em;top: 50%;margin-top: -8px;}
+
+button, .button, ul#icons li, 
+div.icons button,
+div.icons a,
+div.icons div {
+  margin: 2px;
+  position: relative;
+  padding: 4px 0;
+  cursor: pointer;
+}
+
+ul#icons {
+	margin: 0; padding: 0;
+}
+div.icons button,
+div.icons a,
+div.icons div,
+ul#icons li {
+  float: left;
+  list-style: none;
+}
+ul#icons span.ui-icon {
+  float: left;
+  margin: 0 4px;
+}*/
+
+
+/* *** General styles *** */
+#headBar {
+	background: #B51032;
+  background: #cc0000;
+	color: #ffffff;
+	text-align: center;
+	border-bottom: 3px solid #800032;
+	padding: 5px 0;
+}
+h1 {
+	margin: 0;
+}
+#main {
+	margin: 0px auto;
+	width: 800px;
+}
+#main .box {
+	border: 2px solid black;
+	margin: 40px 16px 16px;
+	padding: 24px 16px 8px;
+	position: relative;
+	background: #FFF8DC;
+}
+#main .box h2 {
+	display: block;
+	border: 1px solid #000000;
+	background: #cc0000;
+	color: #ffffff;
+	position: absolute;
+	top: -21px;
+	margin-left: 10px;
+	font-size: 15pt;
+	padding: 4px 16px;
+}
+#footer {
+	position: fixed;
+	width: 100%;
+	bottom: 0px;
+	background: #B51032;
+  background: #cc0000;
+	color: #ffffff;
+	font-size: 11pt;
+	text-align: center;
+	padding: 1px 0;
+}
+/* *** Style for HeadBar *** */
+#headBar #account {
+	float: right;
+}
+
+/* *** Style for albums overview *** */
+#albums .item,
+#pictures .item {
+  background: #ffffff;
+  padding: 8px;
+  margin: 8px;
+  clear: both;
+  min-height: 106px;
+  border: 1px solid #444;
+  width: 45%;
+  display: inline-block;
+}
+
+#albums .item img,
+#pictures .item img {
+	float: left;
+	margin-right: 8px;
+	border: 3px solid #444;
+}
+#albums .item .title,
+#pictures .item  .title {
+	color: #444444;
+	font-weight: bold;
+	font-size: 13pt;
+	display: block;
+}
+#pictures .item .tags {
+	display: block;
+}
+#albums .item .date,
+#pictures .item .date {
+	display: block;
+	margin-top: 8px;
+	font-size: 10pt;
+	color: #444444;
+}
+
+/* *** Style for upload box *** */
+#upload .plupload_header {
+  display: none;
+}
